@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.form
+{
+	text-align: center;
+	font-family: century gothic;
+	font-size: 140%;
+	color:#8c55aa;
+}
+</style>
+	<title>Admin Login</title>
+</head>
+<body>
+	<img src="tngovt.jpg" style="width:120px;height: 120px;float: left;">
+		<h1 style="font-size: 700%;background-color: white;color: #8c55aa;font-family: century gothic;text-align: left;font-weight: lighter;margin-bottom: -20px;margin-top: -1px;">TNTMA</h1><br><br>
+		<h2 style="font-size: 230%;background-color: #8c55aa;margin-top: 30px;text-align: center;color:white;font-weight: lighter;margin-bottom: 70px;">Enter the Government ID provided by your department</h2>
+	<div class="form">
+	<form action="adminconnect.php" method="post">
+		Govt ID:
+		<input type="number" name="govtid"><br><br>
+		Password:
+		<input type="password" name="pass"><br><br>
+		<input type="submit" name="submit">
+	</form>
+</div>
+
+</body>
+</html>
