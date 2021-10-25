@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form
+{
+	text-align: left;
+	font-family: arial;
+	font-size: 140%;
+	color:#8c55aa;
+    display: inline-block;
+}
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+
+	<title>tntma</title>
+</style>
+</head>
+<body style="background-color: white;text-align: center;">
+	<img src="tngovt.jpg" style="width:90px;height: 90px;float: left;">
+	<h1 style="font-size: 500%;background-color: white;color: rgb(0,77,153);font-family: century gothic;text-align: left;font-weight: lighter;margin-top: -1px;margin-bottom: -20px;">TNTMA</h1>
+	<h3 style="color: red;font-family: arial;"></h3><br>
+	<div style="background-color: #8c55aa;text-align: center;color: white;font-size:200%;font-weight: strong;font-family: courier;margin-bottom: 20px;">BIDDER ID APPLICATION</div>
+	<link rel="stylesheet" type="text/css" href="mahe.css">
+<div class="form container">
+<form action="tendertable.php" method="post">
+<p>	<label >Name</label>
+	<input  type="text" name="name"><br><br></p>
+<p>	<label >Company Name</label>
+	<input  type="text" name="cname"><br><br></p>
+<p>	<label>GST Number</label>
+	<input type="text" name="gst"><br><br></p>
+<p>	<label>Tender ID of best tender completed</label>
+	<input type="number" name="noofcomp"><br><br></p>
+<p> <label>Authorized Capital (INR)</label>
+	<input type="number" name="ac"><br><br></p>
+<input type="submit" name="Submit" value="Submit For Validation">
+</form>
+</div>
+</body>
+</html>
